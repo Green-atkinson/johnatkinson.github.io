@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+
+}
+
+nav {
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav a {
+    text-decoration: none;
+    color: 007bff;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: darkred;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    max-width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+img:hover {
+    transform: scale(1.021);
+}
+
+ul, dl {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style-type: none;
+}
+
+p {
+    text-align: center;
+    line-height: 20px;
+    line-height: 30px;
+    position: relative;
+    bottom: 16px;
+    font-size: larger;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+hr {
+    border: 1px solid rgb(68, 68, 68);
+}
+
+li {
+    text-align: left;
+    font-weight: bolder;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkred;
+    text-decoration: underline;
+}
+
+#thumbnail {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 15px;
+    background-color: white;
+}
+
+.fullCard {
+    border: 1px solid rgb(68, 68, 68);
+    border-radius: 5px;
+    margin: 20px 20px;
+    padding: 4px;
+}
+
+.cardContent {
+    padding: 20px;
+}
+
+.cardText {
+    margin-bottom: 10px;
+}
+
+ul.fullCard {
+    width: 190px;
+}
+
+.shade-1 {
+    background-color: #4b8555;
+    padding: 10px;
+
+}
+
+.shade-2 {
+    background-color: hsl(222, 8%, 47%);
+}
+
+.page-one {
+    background: linear-gradient(90deg, rgb(132, 180, 144), rgb(132, 180, 144), #c3d4e1, rgb(132, 180, 144))
+}
+
+.page-one h2 {
+    text-align: center;
+    font-family: 'Quintessential', cursive;
+    background-color: #4b8555;
+    padding: 10px 10px 10 10px;
+}
+
+.page-two {
+    background: linear-gradient(90deg, #849ad6, #849ad6, #c6bfae, #849ad6)
+}
+
+.page-two h2 {
+    text-align: center;
+    font-family: 'Quintessential', cursive;
+    background-color: #585ca5;
+    padding: 10px;
+}
+
+.languages,
+.skills {
+    background-color: #407841;
+    padding: 20px;
+}
+
+.leadership {
+    padding: 20px;
+}
+
+.section-image {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.three-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.one-col {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    padding: 40px;
+}
+
+footer {
+    padding-right: 40px 15px 40px 15px;
+    line-height: 22px;
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: 007bff;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: darkred;
+    text-decoration: underline;
+}
